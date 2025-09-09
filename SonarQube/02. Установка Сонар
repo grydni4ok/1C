@@ -1,0 +1,10 @@
+Последняя версия сонара не запустилась
+Error: LinkageError occurred while loading main class org.sonar.application.App
+        java.lang.UnsupportedClassVersionError: org/sonar/application/App has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+Видимо ругается на версию JAVA.
+
+Скачать более старую версию Сонара:
+  - переходим на сайт https://www.sonarsource.com/products/sonarqube/downloads/
+  - ниже есть строчка "Looking for older editions of SonarQube Server? See our historical downloads."
+  - переходим по ссылке и видим разные сборки Сонара, скачал от 21 года, он запустился
+
